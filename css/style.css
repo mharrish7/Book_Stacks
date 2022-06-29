@@ -1,0 +1,118 @@
+
+body{
+    background-color: #06113C;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+.ground{
+    position: absolute;
+    bottom: 2rem;
+    height: 2rem;
+    width: 1200px;
+    background-color: brown;
+    left: 200px;
+}
+
+#lead{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #250d3f;
+    opacity: 90%;
+    height: 100%;
+    z-index: 1000;
+    top : 1rem;
+    animation: bl 3s;
+    display: none;
+}
+
+@keyframes bl{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.9;
+    }
+}
+
+.leads{
+    text-align: center;
+}
+
+ol{
+    padding: 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    font-size: larger;
+    background-color: #4C3575;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    opacity: 100%;
+}
+
+.close{
+    opacity: 100%;
+    background-color: #371B58;
+    transition: 0.3s;
+    height: 2.5rem;
+    width: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    border-radius: 2rem;
+    color: white;
+    margin-top: 1rem;
+    border-color: white;
+    
+}
+
+.close:hover{
+    background-color: #4C3575;
+}
+
+#name{
+    margin-top: 4rem;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+#name:focus{
+    font-size: 2rem;
+}
+
+
+#nameh{
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+#name{
+    margin-top: 5rem;
+}
+
+.but{
+    background-color: #06113C;
+    transition: 0.3s;
+    height: 2.5rem;
+    width: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    color: white;
+    margin-top: 1rem;
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.but:hover{
+    background-color: #4C3575;
+}
